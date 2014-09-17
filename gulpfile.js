@@ -51,10 +51,6 @@ gulp.task('templates', function(){
     .pipe(declare({
       namespace: 'Ember.TEMPLATES',
       noRedeclare: true,
-    }))
-    .pipe(declare({
-      namespace: 'Ember.TEMPLATES',
-      noRedeclare: true,
       processName: function(filePath) {
         return declare.processNameByPath(filePath.replace('app/templates/', ''));
       }
