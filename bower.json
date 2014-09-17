@@ -1,0 +1,19 @@
+{
+  "name": "gmail-ember",
+  "version": "0.0.0",
+  "authors": [
+    "Mark Brown <markbrown4@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.6",
+    "ember-data": "~1.0.0-beta.8"
+  }
+}

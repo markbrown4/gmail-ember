@@ -1,0 +1,29 @@
+{
+  "name": "gmail-ember",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "*",
+    "gulp": "*",
+    "gulp-util": "*",
+    "gulp-coffee": "*",
+    "gulp-sass": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-uglify": "*",
+    "gulp-handlebars": "*",
+    "ember-handlebars": "*",
+    "gulp-wrap": "*",
+    "gulp-declare": "*",
+    "gulp-concat": "*",
+    "http-server": "*"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "assets": "gulp",
+    "start": "http-server ./app -a 0.0.0.0 -p 8000"
+  }
+}
